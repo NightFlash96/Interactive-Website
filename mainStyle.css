@@ -110,3 +110,7 @@ body {
     top: 180px;
   }
 }
+
+span { /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
+  padding-right: 100px;
+  }
