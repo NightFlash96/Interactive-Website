@@ -1,12 +1,112 @@
 body {
-  background-color: #282c34;
+  background-color: #fafafa;
 }
 
-.header-container {
-  background-color: #454b58;
+.headercontainer {
+  background-color: #5758ba;
 }
 
-.header-text {
+.headertext {
   text-align: center;
-  padding-right: 120px;
+  color: #ffffff;
+}
+
+.whitetext {
+  color: #ffffff;
+}
+
+.filmcontainer {
+  background-color: #5758ba;
+  padding: 5px;
+  margin: 50 px;
+  min-height: 175px;
+}
+
+.dvdcontainer {
+  background-color: #006699;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  border: 1px solid #111;
+}
+
+.dvd {
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  -webkit-animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+}
+@-moz-keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+}
+@-o-keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+}
+@keyframes moveX {
+  from {
+    left: 0;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+@-webkit-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 180px;
+  }
+}
+@-moz-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 180px;
+  }
+}
+@-o-keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 180px;
+  }
+}
+@keyframes moveY {
+  from {
+    top: 0;
+  }
+  to {
+    top: 180px;
+  }
 }
