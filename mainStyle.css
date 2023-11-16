@@ -4,11 +4,12 @@ body {
 
 .headercontainer {
   background-color: #5758ba;
+  text-align: center;
 }
 
 .headertext {
-  text-align: center;
   color: #ffffff;
+  display: inline-block;
 }
 
 .whitetext {
@@ -34,7 +35,9 @@ body {
   margin: 10px;
 }
 
-span {
-  /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
+.span-header { /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
   padding-right: 100px;
-}
+  }
+.span { /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
+  padding-right: 100px;
+  }
