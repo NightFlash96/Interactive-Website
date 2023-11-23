@@ -3,7 +3,7 @@ body {
 }
 
 .headercontainer {
-  background-color: #5758ba;
+  background-color: #0f1061;
   text-align: center;
 }
 
@@ -14,6 +14,14 @@ body {
 
 .whitetext {
   color: #ffffff;
+}
+.header-links {
+  color: #ffffff;
+  font-size: large;
+}
+.searchbar {
+  color: #ffffff;
+  font-size: medium;
 }
 
 .box {
@@ -36,7 +44,7 @@ body {
 }
 
 .span-header { /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
-  padding-right: 100px;
+  padding-right: 90px;
   }
 .span { /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
   padding-right: 100px;
