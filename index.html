@@ -1,452 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html style="color: white">
   <head>
-    <link rel="stylesheet" href="mainStyle.css" />
-    <title>Interactive-Website</title>
+    <div id="header">
+      <title>Interactive-Website</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="mainStyle.css" />
+
+      <div class="logo">
+        <h2>Entertainment Portal</h2>
+        <input type="text" placeholder="Search all..." />
+      </div>
+
+      <div class="header-banner" style="background-color: red; color: red">
+        -
+      </div>
+      <div
+        class="header-banner"
+        style="background-color: orange; color: orange"
+      >
+        -
+      </div>
+      <div
+        class="header-banner"
+        style="background-color: yellow; color: yellow"
+      >
+        -
+      </div>
+
+      <br />
+
+      <div class="label-container">
+        <div style="padding-left: 15px">
+          <span class="span-header"> ALL entertainment ALL the time </span>
+
+          <span class="span-header">
+            <select name="categories" id="categories">
+              <option value="All genres">genre select</option>
+              <option value="horror">horror</option>
+              <option value="comedy">comedy</option>
+              <option value="sci-fi">sci-fi</option>
+              <option value="fantasy">fantasy</option>
+            </select>
+          </span>
+
+          <span class="span-header">
+            <select name="sort" id="sort">
+              <option value="sort by most popular">sort by most popular</option>
+              <option value="sort by newest">sort by newest</option>
+              <option value="sort by oldest">sort by oldest</option>
+            </select>
+          </span>
+        </div>
+      </div>
+    </div>
   </head>
 
-  <div class="headercontainer">
-    <span class="span-header"
-      ><h1 class="headertext">Entertainment Portal</h1></span
-    >
-    <span class="span-header"
-      ><a class="header-links" href="/Interactive-Website/index.html"
-        >Home</a
-      ></span
-    >
-    <span class="span-header"
-      ><a class="header-links" href="/Interactive-Website/films.html"
-        >Films</a
-      ></span
-    >
-    <span class="span-header"
-      ><a class="header-links" href="/Interactive-Website/shows.html"
-        >Shows</a
-      ></span
-    >
-    <span class="span-header"
-      ><a class="header-links" href="/Interactive-Website/games.html"
-        >Games</a
-      ></span
-    >
-    <span class="span-header"
-      ><a class="header-links" href="/Interactive-Website/albums.html"
-        >Albums</a
-      ></span
-    >
-    <span class="span-header"
-      ><input type="text" class="searchbar" placeholder="Search..."
-    /></span>
+  <body>
+    <div id="middle">
+      <div id="left">
+        <a class="category-links" href="/interactive-website-test/index.html"
+          ><h2 style="background-color: orange; padding-left: 5px">All</h2></a
+        >
+        <div style="padding-left: 5px">
+          <a class="category-links" href="/interactive-website-test/Films.html"
+            ><h3 style="padding-top: 10px">Films</h3></a
+          >
+          <h3 style="padding-top: 10px">Movies</h3>
+          <h3 style="padding-top: 10px">Games</h3>
+          <h3 style="padding-top: 10px">Albums</h3>
+        </div>
+      </div>
 
-    <!-- <marquee class="whitetext" class="space">
-      <span class="span">GAMES</span>
-      <span class="span">FILMS</span>
-      <span class="span">REVIEWS</span>
-      <span class="span">RECOMMENDATIONS</span>
-      <span class="span">HORROR</span>
-      <span class="span">DRAMA</span>
-      <span class="span">SCI-FI</span>
-      <span class="span">FANTASY</span>
-      <span class="span">DISCUSSIONS</span>
-    </marquee> -->
-  </div>
+      <div id="right">
+        <br />
 
-  <div class="content-align">
-    <div class="films-container">
-      <h2>
-        <a class="content-links" href="/Interactive-Website/films.html"
-          >FILMS
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <div class="content-container">
+            <div>
+              <img
+                style="border-radius: 5px"
+                src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
+                width="200"
+              />
+              <h3>
+                Interstellar
+                <img
+                  style="
+                    padding-right: 5px;
+                    padding-bottom: 6px;
+                    vertical-align: middle;
+                  "
+                  width="20"
+                  src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                />8.7
+              </h3>
+            </div>
+          </div>
         </a>
-      </h2>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.7 <br />Interstellar
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.7 <br />Interstellar
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.7 <br />Interstellar
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.7 <br />Interstellar
-            </h3>
-          </div>
-        </div>
-      </a>
+      </div>
     </div>
-    <div class="shows-container">
-      <h2>
-        <a class="content-links" href="/Interactive-Website/shows.html"
-          >SHOWS
-        </a>
-      </h2>
+  </body>
 
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_FMjpg_UY4000_.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.8 <br />The Last of Us
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_FMjpg_UY4000_.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.8 <br />The Last of Us
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_FMjpg_UY4000_.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.8 <br />The Last of Us
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://m.media-amazon.com/images/M/MV5BZGUzYTI3M2EtZmM0Yy00NGUyLWI4ODEtN2Q3ZGJlYzhhZjU3XkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_FMjpg_UY4000_.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.8 <br />The Last of Us
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="games-container">
-      <h2>
-        <a class="content-links" href="/Interactive-Website/games.html"
-          >GAMES
-        </a>
-      </h2>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.5 <br />Halo: Combat Evolved
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.5 <br />Halo: Combat Evolved
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.5 <br />Halo: Combat Evolved
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />8.5 <br />Halo: Combat Evolved
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-    <div class="albums-container">
-      <h2>
-        <a class="content-links" href="/Interactive-Website/albums.html"
-          >Albums
-        </a>
-      </h2>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/0/01/Queens_of_the_Stone_Age_-_Songs_for_the_Deaf.png"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />7.9 <br />Songs for the Deaf
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/0/01/Queens_of_the_Stone_Age_-_Songs_for_the_Deaf.png"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />7.9 <br />Songs for the Deaf
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/0/01/Queens_of_the_Stone_Age_-_Songs_for_the_Deaf.png"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />7.9 <br />Songs for the Deaf
-            </h3>
-          </div>
-        </div>
-      </a>
-
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-        <div class="content-container">
-          <div>
-            <img
-              style="border-radius: 10px"
-              src="https://upload.wikimedia.org/wikipedia/en/0/01/Queens_of_the_Stone_Age_-_Songs_for_the_Deaf.png"
-              width="200"
-            />
-            <h3>
-              <img
-                style="
-                  padding-right: 5px;
-                  padding-bottom: 6px;
-                  vertical-align: middle;
-                "
-                width="20"
-                src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-              />7.9 <br />Songs for the Deaf
-            </h3>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
+  <div id="footer">footer</div>
 </html>

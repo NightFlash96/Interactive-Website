@@ -1,78 +1,110 @@
 body {
-  background-color: #ffffff;
+  background-color: #424242;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+}
+
+#header,
+#middle,
+#footer {
+  position: absolute;
+  width: 100%;
+}
+
+#header {
+  background: #424242;
+  height: 100%;
+  top: 0;
+}
+
+.logo {
+  background: #646464;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15%;
+  height: 100%;
+}
+
+.header-banner {
+  margin: 5px;
+  margin-left: 16%;
+  padding: 5px;
+}
+
+.main-search {
+  padding: 50px;
+  padding-left: 500px;
+}
+
+#middle {
+  background: #f00;
+  top: 150px;
+  bottom: 20px;
+}
+
+#footer {
+  background: #777;
+  height: 20px;
+  bottom: 0;
 }
 
 .headercontainer {
-  background-color: #f7cd46;
+  background-color: orange;
   text-align: center;
+  width: 15%;
 }
 
-.headertext {
-  color: #de5935;
-  display: inline-block;
-}
-
-.whitetext {
-  color: #de5935;
-}
-.header-links {
-  color: #de5935;
-  font-size: large;
-}
-.searchbar {
-  color: #ffffff;
-  font-size: medium;
+.label-container {
+  background-color: #646464;
+  margin-left: 16%;
 }
 
 .content-align {
   display: inline-block;
-  padding-right: 130px;
-  padding-left: 130px;
 }
 
 .content-container {
-  background-color: #5ac3b0;
+  background-color: #646464;
+  color: #ffffff;
   background-position: center center;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 5px;
   display: inline-block;
   padding-left: 10px;
-  padding: 10px;
+  padding: 5px;
   margin: 10px;
 }
 
-.films-container {
-  background-color: #df9f5f;
-  border-radius: 5px;
-}
-
-.shows-container {
-  background-color: #f7cd46;
-  border-radius: 5px;
-}
-
-.games-container {
-  background-color: #66ccff;
-  border-radius: 5px;
-}
-
-.albums-container {
-  background-color: #ff6666;
-  border-radius: 5px;
-}
-
-.see-more {
-  float: inline-end;
-}
-
-.content-links {
-  color: black;
-  padding-left: 20px;
-}
-
 .span-header {
-  padding-right: 50px;
-}
-.span {
   padding-right: 100px;
+  color: #ffffff;
+}
+
+#left {
+  background: #646464;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 15%;
+  height: 100%;
+}
+
+.category-links {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#right {
+  background: #424242;
+  position: absolute;
+  left: 15%;
+  top: 0;
+  float: right;
+  width: 85%;
+  height: 100%;
+  overflow-y: scroll;
 }
