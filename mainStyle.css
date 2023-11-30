@@ -42,7 +42,7 @@ body {
 
 #middle {
   background: #f00;
-  top: 150px;
+  top: 120px;
   bottom: 20px;
 }
 
@@ -107,4 +107,13 @@ body {
   width: 85%;
   height: 100%;
   overflow-y: scroll;
+}
+
+.span {
+  /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
+  padding-right: 100px;
+}
+
+.link:hover {
+  background-color: #424242;
 }
