@@ -18,7 +18,7 @@ body {
   background: #000000;
   height: 20%;
   top: 5px;
-  left:5px
+  left: 5px;
 }
 
 .logo {
@@ -29,6 +29,13 @@ body {
   top: 0;
   width: 15%;
   height: 100%;
+}
+
+.logo-img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-top: 15px;
 }
 
 .header-banner {
@@ -49,7 +56,7 @@ body {
   background: #000000;
   top: 130px;
   bottom: 20px;
-  left: 5px
+  left: 5px;
 }
 
 #footer {
@@ -128,7 +135,7 @@ body {
   padding-right: 100px;
 }
 
-.link{
+.link {
   color: #ffffff;
 }
 
