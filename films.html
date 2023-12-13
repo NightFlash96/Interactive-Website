@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html style="color: white" lang="en">
   <head>
-    <div id="header">
+    <div class="header">
       <title>Interactive-Website</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="mainStyle.css" />
 
       <div class="logo">
-        <img class="logo-img" src="webstite_logo.png" width="180" />
+        <img style="float: left;;" width="60" src="broke cd spin.gif" />
+        <p>Entertainment </br>Home</p>
         <input
           style="margin-left: 5px"
           type="text"
@@ -72,19 +73,24 @@
             <label for="genre">Genre:</label>
             <select name="genres" id="genre">
               <option value="all genres">All Genres</option>
-              <option value="horror">Horror</option>
+              <option value="action">Action</option>
+              <option value="adventure">Adventure</option>
               <option value="comedy">Comedy</option>
-              <option value="sci-fi">Sci-Fi</option>
+              <option value="mystery">Mystery</option>
               <option value="fantasy">Fantasy</option>
+              <option value="historical">Historical</option>
+              <option value="horror">Horror</option>
+              <option value="romance">Romance</option>
+              <option value="sci-fi">Sci-Fi</option>
             </select>
           </span>
 
           <span class="span-header">
             <label for="popularity">Popularity:</label>
             <select name="popularity" id="popularity">
+              <option value="popularity">Popularity</option>
               <option value="all time">All Time</option>
               <option value="this year">This Year</option>
-              <option value="last year">Last Year</option>
               <option value="this month">This Month</option>
               <option value="this week">This Week</option>
               <option value="today">Today</option>
@@ -93,6 +99,7 @@
           <span class="span-header">
             <label for="year">Year:</label>
             <select name="year" id="year">
+              <option value="releases">Releases</option>
               <option value="latest releases">Latest Releases</option>
               <option value="2020s">2020s</option>
               <option value="2010s">2010s</option>
@@ -109,6 +116,7 @@
           <span class="span-header">
             <label for="rating">Rating:</label>
             <select label="Rating" name="rating" id="rating">
+              <option value="rating">Rating</option>
               <option value="highest rated">Highest Rated</option>
               <option value="lowest rated">Lowest Rating</option>
             </select>
@@ -122,8 +130,8 @@
   </head>
 
   <body>
-    <div id="middle">
-      <div id="left">
+    <div class="middle">
+      <div class="left">
         <div class="link" style="padding-left: 5px">
           <a class="category-links" href="/interactive-website/index"
             ><h3 style="padding: 5px">All</h3></a
@@ -144,9 +152,9 @@
         </div>
       </div>
 
-      <div id="right">
+      <div class="right">
         <br />
-        <div>
+        <div class="center">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <div id="b" class="content-container">
               <div>
@@ -488,5 +496,5 @@
     </div>
   </body>
 
-  <div id="footer"></div>
+  <div class="footer"></div>
 </html>

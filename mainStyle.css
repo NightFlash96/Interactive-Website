@@ -7,14 +7,14 @@ body {
   overflow: hidden;
 }
 
-#header,
-#middle,
-#footer {
+.header,
+.middle,
+.footer {
   position: absolute;
   width: 100%;
 }
 
-#header {
+.header {
   background: #000000;
   height: 20%;
   top: 5px;
@@ -52,14 +52,14 @@ body {
   padding-left: 500px;
 }
 
-#middle {
+.middle {
   background: #000000;
   top: 130px;
   bottom: 20px;
   left: 5px;
 }
 
-#footer {
+.footer {
   background: #000000;
   height: 20px;
   bottom: 0;
@@ -103,7 +103,7 @@ body {
   color: #ffffff;
 }
 
-#left {
+.left {
   border-radius: 5px;
   background: #121212;
   position: absolute;
@@ -118,7 +118,7 @@ body {
   text-decoration: none;
 }
 
-#right {
+.right {
   background: #000000;
   position: absolute;
   left: 15%;
@@ -151,4 +151,10 @@ body {
   padding-right: 5px;
   padding-bottom: 6px;
   vertical-align: middle;
+}
+
+.center {
+  margin: auto;
+  width: 90%;
+  /* border: 3px solid green; */
 }
