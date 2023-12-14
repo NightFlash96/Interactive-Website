@@ -147,7 +147,7 @@ body {
   background: #000000;
   top: 130px;
   bottom: 20px;
-  left: 20%;
+  left: 17%;
 }
 
 .right {
@@ -200,6 +200,13 @@ body {
   color: #ffffff;
   position: static;
   float: right;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.back-button {
+  color: #ffffff;
+  position: static;
+  float: left;
   margin-top: 15px;
   margin-right: 5px;
 }
