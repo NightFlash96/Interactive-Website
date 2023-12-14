@@ -146,11 +146,11 @@ body {
 .right {
   background: #000000;
   position: absolute;
-  left: 20%;
+  left: 17%;
   top: 130px;
   bottom: 20px;
   float: right;
-  width: 80%;
+  width: 83%;
   height: 100%;
   overflow-y: scroll;
 }
@@ -180,12 +180,13 @@ body {
 
 .lib-add {
   position: absolute;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 15px;
+  padding-top: 3px;
   border: none;
   text-decoration: none;
-  background-color: #00ba00;
-  border-radius: 100px;
+  background-color: #00ba5d;
+  border-radius: 2px;
   color: #ffffff;
   cursor: pointer;
 }
