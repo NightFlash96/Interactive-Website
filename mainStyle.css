@@ -63,7 +63,25 @@ body {
   padding: 5px;
   margin: 10px;
   width: 95%;
-  height: 320px;
+  height: 85%;
+}
+
+.library-banner {
+  background-color: #121212;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.library-container {
+  background-color: #181818;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  width: 95%;
+  height: 85%;
 }
 
 .login-banner {
@@ -120,6 +138,12 @@ body {
   color: #ffffff;
 }
 
+.span-library {
+  padding-right: 80px;
+  padding-left: 80px;
+  color: #ffffff;
+}
+
 .left {
   position: absolute;
   left: 10px;
@@ -144,7 +168,7 @@ body {
   border-radius: 5px;
   background: #121212;
   margin-top: 40px;
-  height: 22%;
+  height: 24%;
 }
 
 .category-links {
@@ -189,6 +213,7 @@ body {
 
 .link:hover {
   background-color: #424242;
+  border-radius: 5px;
 }
 
 .jumplink {
