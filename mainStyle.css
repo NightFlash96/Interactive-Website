@@ -220,3 +220,15 @@ body {
   width: 30%;
   border-radius: 10px;
 }
+
+.desc-left {
+  width: 75%;
+  overflow: auto;
+  position: absolute;
+}
+
+.desc-right {
+  border: 3px solid green;
+  left: 80%;
+  position: absolute;
+}
