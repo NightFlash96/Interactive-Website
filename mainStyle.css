@@ -110,21 +110,20 @@ body {
 .top-left {
   border-radius: 5px;
   background: #121212;
-  height: 25%;
+  height: 20%;
   top: 0px;
 }
 .mid-left {
   border-radius: 5px;
   background: #121212;
-  top: 20%;
+  margin-top: 40px;
   height: 32%;
 }
 
 .bot-left {
   border-radius: 5px;
   background: #121212;
-  margin-top: 35px;
-  top: 60%;
+  margin-top: 40px;
   height: 22%;
 }
 
