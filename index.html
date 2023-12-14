@@ -1,24 +1,14 @@
 <!DOCTYPE html>
-<html style="color: white">
+<html style="color: white" lang="en">
   <head>
-    <div id="header">
-      <title>Interactive-Website</title>
+    <div class="header">
+      <title>Entertainment Portal</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="stylesheet" href="mainStyle.css" />
+      <link rel="icon" href="broke cd spin.gif">
 
-      <div class="logo">
-        <img
-          style="border-radius: 5px"
-          src="webstite_logo.png"
-          width="200"
-          alt="Logo"
-        />
-        <input type="text" placeholder="Search all..." />
-      </div>
-
-      <div class="header-banner" style="background-color: red">
-        EntertainmentPortal.com
-        <marquee class="whitetext" class="space">
+      <div class="header-banner" style="background-color: #9c27b0">
+        <marquee>
           <span class="span">GAMES</span>
           <span class="span">FILMS</span>
           <span class="span">REVIEWS</span>
@@ -29,92 +19,549 @@
           <span class="span">FANTASY</span>
           <span class="span">DISCUSSIONS</span>
         </marquee>
+        <a class="login-link" href="login.html">Log In</a>
       </div>
-      <div
-        class="header-banner"
-        style="background-color: orange; color: orange"
-      >
-        -
-      </div>
-      <div
-        class="header-banner"
-        style="background-color: yellow; color: yellow"
-      >
-        -
+      <div class="header-banner" style="background-color: #272ab0">
+        
+          <a class="jumplink" href="#a">A</a>
+          <a class="jumplink" href="#b">B</a>
+          <a class="jumplink" href="#c">C</a>
+          <a class="jumplink" href="#d">D</a>
+          <a class="jumplink" href="#e">E</a>
+          <a class="jumplink" href="#f">F</a>
+          <a class="jumplink" href="#g">G</a>
+          <a class="jumplink" href="#h">H</a>
+          <a class="jumplink" href="#i">I</a>
+          <a class="jumplink" href="#j">J</a>
+          <a class="jumplink" href="#k">K</a>
+          <a class="jumplink" href="#l">L</a>
+          <a class="jumplink" href="#m">M</a>
+          <a class="jumplink" href="#n">N</a>
+          <a class="jumplink" href="#o">O</a>
+          <a class="jumplink" href="#p">P</a>
+          <a class="jumplink" href="#q">Q</a>
+          <a class="jumplink" href="#r">R</a>
+          <a class="jumplink" href="#s">S</a>
+          <a class="jumplink" href="#t">T</a>
+          <a class="jumplink" href="#u">U</a>
+          <a class="jumplink" href="#v">V</a>
+          <a class="jumplink" href="#w">W</a>
+          <a class="jumplink" href="#x">X</a>
+          <a class="jumplink" href="#y">Y</a>
+          <a class="jumplink" href="#z">Z</a>
+      
       </div>
 
-      <br />
-
-      <div class="label-container">
+      <div class="header-banner" style="background-color: #57acdc">
         <div style="padding-left: 15px">
-          <span class="span-header"> ALL entertainment ALL the time </span>
+          <span class="span-header"> ALL entertainment ALL the time</span>
 
           <span class="span-header">
-            <select name="categories" id="categories">
-              <option value="All genres">genre select</option>
-              <option value="horror">horror</option>
-              <option value="comedy">comedy</option>
-              <option value="sci-fi">sci-fi</option>
-              <option value="fantasy">fantasy</option>
+            <label for="genre">Genre:</label>
+            <select name="genres" id="genre">
+              <option value="all genres">All Genres</option>
+              <option value="action">Action</option>
+              <option value="adventure">Adventure</option>
+              <option value="comedy">Comedy</option>
+              <option value="mystery">Mystery</option>
+              <option value="fantasy">Fantasy</option>
+              <option value="historical">Historical</option>
+              <option value="horror">Horror</option>
+              <option value="romance">Romance</option>
+              <option value="sci-fi">Sci-Fi</option>
+              <option value="sci-fi">Sci-Fi</option>
+              <option value="fps">FPS</option>
+              <option value="competative">Competative</option>
+              <option value="sandbox">Sandbox</option>
+              <option value="simulator">Simulator</option>
+              <option value="classical">Classical</option>
+              <option value="pop">Pop</option>
+              <option value="blues">Blues</option>
+              <option value="country">Country</option>
+              <option value="electro">Electro</option>
+              <option value="folk">Folk</option>
+              <option value="jazz">Jazz</option>
+              <option value="soul">Soul</option>
+              <option value="rock">Rock</option>
+              <option value="metal">Metal</option>
+              <option value="punk">Punk</option>
             </select>
           </span>
 
           <span class="span-header">
-            <select name="sort" id="sort">
-              <option value="sort by most popular">sort by most popular</option>
-              <option value="sort by newest">sort by newest</option>
-              <option value="sort by oldest">sort by oldest</option>
+            <label for="popularity">Popularity:</label>
+            <select name="popularity" id="popularity">
+              <option value="popularity">Popularity</option>
+              <option value="all time">All Time</option>
+              <option value="this year">This Year</option>
+              <option value="this month">This Month</option>
+              <option value="this week">This Week</option>
+              <option value="today">Today</option>
             </select>
           </span>
+
+          <span class="span-header">
+            <label for="year">Year:</label>
+            <select name="year" id="year">
+              <option value="releases">Releases</option>
+              <option value="latest releases">Latest Releases</option>
+              <option value="2020s">2020s</option>
+              <option value="2010s">2010s</option>
+              <option value="2000s">2000s</option>
+              <option value="1990s">1990s</option>
+              <option value="1980s">1980s</option>
+              <option value="1970s">1970s</option>
+              <option value="1960s">1960s</option>
+              <option value="1950s">1950s</option>
+              <option value="1940s">1940s</option>
+              <option value="1930s">1930s</option>
+            </select>
+          </span>
+
+          <span class="span-header">
+            <label for="rating">Rating:</label>
+            <select label="Rating" name="rating" id="rating">
+              <option value="rating">Rating</option>
+              <option value="highest rated">Highest Rated</option>
+              <option value="lowest rated">Lowest Rating</option>
+            </select>
+          </span>
+
         </div>
       </div>
     </div>
   </head>
 
   <body>
-    <div id="middle">
-      <div id="left">
-        <a class="category-links" href="/interactive-website/index"
-          ><h2 style="background-color: orange; padding-left: 5px">All</h2></a
-        >
-        <div style="padding-left: 5px">
-          <a class="category-links" href="/interactive-website/Films"
-            ><h3 style="padding-top: 10px">Films</h3></a
+    
+    <div class="left">
+      <div class="top-left">
+        
+      <div>
+        <a class="category-links" href="index.html">
+          <img style="float: left;" width="60" src="broke cd spin.gif" />
+          <p style="padding-top: 12px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Entertainment </br>Portal</p>
+       </a>
+        <input
+          style="margin-left: 10px; margin-top: 15px;"
+          type="text"
+          placeholder="Search all..."
+          
+        />
+      </div>
+      
+      </div>
+      <div class="mid-left">
+    
+        <div class="link">
+          <a class="category-links" href="films.html"
+            ><h3 style="padding: 5px; border-radius: 5px;">Films</h3></a
           >
-          <h3 style="padding-top: 10px">Games</h3>
-          <h3 style="padding-top: 10px">Albums</h3>
         </div>
+
+        <div class="link">
+          <a class="category-links" href="shows.html"
+            ><h3 style="padding: 5px">Shows</h3></a
+          >
+        </div>
+
+        <div class="link">
+          <a class="category-links" href="games.html">
+            <h3 style="padding: 5px">Games</h3>
+          </a>
+        </div>
+
+        <div class="link">
+          <a class="category-links" href="albums.html">
+            <h3 style="padding: 5px">Albums</h3>
+          </a>
+        </div>
+        
       </div>
 
-      <div id="right">
-        <br />
+      <div class="bot-left">
 
-        <div class="content-blob" style="width: 90%">
-          <div>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-              <img
-                style="border-radius: 5px"
-                src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
-                width="200"
-              />
-              <h3>
-                Interstellar
+        <div class="link">
+          <a class="category-links" href="login.html">
+            <h3 style="padding: 5px">Forums</h3>
+          </a>
+        </div>
+
+        <div class="link">
+          <a class="category-links" href="login.html">
+            <h3 style="padding: 5px">Your Library</h3>
+          </a>
+        </div>
+
+        <div class="link">
+          <a class="category-links" href="login.html">
+            <h3 style="padding: 5px">Notifications</h3>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="middle">
+      <div class="right">
+        <br />
+        <div>
+            <div id="b" class="content-container">
+              <div>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                 <img
-                  style="
-                    padding-right: 5px;
-                    padding-bottom: 6px;
-                    vertical-align: middle;
-                  "
-                  width="20"
-                  src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
-                />8.7
-              </h3>
-            </a>
-          </div>
+                  style="border-radius: 5px"
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRBkxgl2A2PhE_6tklFLT0bxn5NLhvhsnpXGhmXBt_zotrlVHmo"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+              </a>
+                <h3 style="text-align: center;">
+                  The Batman
+                  <br/>
+                  (2022)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.1
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="b" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Blade Runner
+                  <br />
+                  (1982)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.1
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="b" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Blade Runner 2049
+                  <br />
+                  (2019)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.0
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="d" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://contentserver.com.au/assets/600828_p13153578_p_v8_ab.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Dunkirk
+                  <br />
+                  (2017)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />7.8
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="d" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvJznVehDbSUPihJbSTNwH8Tgnvh4ZDxs0J4hV06wOvHHidHul"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Dune
+                  <br />
+                  (2021)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.0
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="g" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSOQ_3AmFlN8ooabokdWzT7Bq2bydXXReWDJtj_x2vYvZClHI0I"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Ghost In The Shell
+                  <br />
+                  (1995)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />7.8
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="i" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRahMdIAUM-EOFYqEUdg55XHG4JQYaskXKhDG8WeHkyZH2DXZVz"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Inception
+                  <br />
+                  (2010)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.8
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="i" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://thecord.ca/wp-content/uploads/2014/11/Interstellar-movie-poster-Contribute-image.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Interstellar
+                  <br />
+                  (2014)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.7
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="j" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://s3.amazonaws.com/nightjarprod/content/uploads/sites/192/2021/05/10145225/l1yltvzILaZcx2jYvc5sEMkM7Eh.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Jaws
+                  <br />
+                  (1975)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.1
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="j" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://lionsgate.brightspotcdn.com/59/e8/576c91ae47e4aa7fd6240dc48674/john-wick-chapter-1-movies-poster-01.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  John Wick
+                  <br />
+                  (2014)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />7.4
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="m" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4jfQQt_0vCA4XSwGiWkffC32Tv2oajdWhaYHHVYylYGJ3v17Q"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  The Matrix
+                  <br />
+                  (1999)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.4
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="n" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0hHF761LJ_z8S5Z5T0w781fbc0Yqe3d6en27ncL5Vablh3gfo"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Napoleon
+                  <br />
+                  (2023)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />6.6
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="o" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  Oppenheimer
+                  <br />
+                  (2023)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.4
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <div id="t" class="content-container">
+              <div>
+                <img
+                  style="border-radius: 5px"
+                  src="https://m.media-amazon.com/images/M/MV5BNGViZWZmM2EtNGYzZi00ZDAyLTk3ODMtNzIyZTBjN2Y1NmM1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg"
+                  width="200"
+                  height="300"
+                  alt="film art"
+                />
+                <h3 style="text-align: center">
+                  The Thing
+                  <br />
+                  (1982)
+                  <img
+                    class="star"
+                    width="20"
+                    alt="star"
+                    src="https://pluspng.com/img-png/yellow-stars-png-hd-hd-quality-wallpaper-collection-pattern-2000x2000-star-2000.png"
+                  />8.2
+                  <button type="button" class="lib-add" onclick="alert('LOGIN REQUIRED')">+</button>
+                </h3>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </body>
 
-  <div id="footer">footer</div>
+  <div class="footer"></div>
 </html>

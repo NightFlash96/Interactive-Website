@@ -48,6 +48,24 @@ body {
   font-weight: bold;
 }
 
+.notif-banner {
+  background-color: #121212;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.notif-container {
+  background-color: #181818;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  width: 95%;
+  height: 320px;
+}
+
 .login-banner {
   margin: 5px;
   padding: 5px;
@@ -98,7 +116,7 @@ body {
 }
 
 .span-header {
-  padding-right: 25px;
+  padding-right: 20px;
   color: #ffffff;
 }
 
@@ -162,7 +180,6 @@ body {
 }
 
 .span {
-  /*if you don't use the word-spacing, you can put spans in between each phrase and add a padding-right */
   padding-right: 100px;
 }
 
