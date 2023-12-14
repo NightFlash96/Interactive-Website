@@ -93,6 +93,8 @@ body {
   display: inline-block;
   padding: 5px;
   margin: 10px;
+  width: 90%;
+  height: 320px;
 }
 
 .span-header {
@@ -202,6 +204,7 @@ body {
   margin-top: 15px;
   margin-right: 5px;
 }
+
 .back-button {
   color: #ffffff;
   position: static;
@@ -227,7 +230,6 @@ body {
 }
 
 .desc-right {
-  border: 3px solid green;
   left: 80%;
   position: absolute;
 }
