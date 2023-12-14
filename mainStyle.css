@@ -93,6 +93,8 @@ body {
   display: inline-block;
   padding: 5px;
   margin: 10px;
+  width: 90%;
+  height: 320px;
 }
 
 .span-header {
@@ -227,7 +229,6 @@ body {
 }
 
 .desc-right {
-  border: 3px solid green;
   left: 80%;
   position: absolute;
 }
