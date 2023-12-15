@@ -148,6 +148,24 @@ body {
   margin: 10px;
 }
 
+.home-container {
+  background-color: #181818;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+  width: 95%;
+  height: 65%;
+}
+
+.home-banner {
+  background-color: #e91e63;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .content-blob {
   background-color: #181818;
   color: #ffffff;
